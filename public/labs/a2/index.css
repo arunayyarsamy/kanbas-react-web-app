@@ -1,0 +1,13 @@
+p {
+    background-color: red; 
+    color: white
+}
+
+p#p1 {
+    background-color: blue;
+}
+
+.wd-class-selector {
+    background-color: yellow;
+    color: blue;
+}
