@@ -5,17 +5,17 @@
 }
 
 .btn-red {
-    background-color: red !important;
-    color: white !important;
+  background-color: red !important;
+  color: white !important;
 }
 
 .link-red a {
-    color: red;
-    text-decoration: none;
+  color: red;
+  text-decoration: none;
 }
 
 .margin-zero {
-    margin: 0px !important;
+  margin: 0px;
 }
 
 .list-group-item h6 a {

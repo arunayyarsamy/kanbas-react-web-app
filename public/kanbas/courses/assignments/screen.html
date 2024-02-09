@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/Kanbas/styles.css" />
     <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
@@ -51,7 +52,7 @@
       </div>
       <div class="flex-fill" style="height: 100vh; overflow-y: scroll">
         <!-- Breadcrumb section-->
-        <div class="d-flex p-2 align-items-center">
+        <div class="d-none d-md-flex p-2 align-items-center">
           <span>
             <i class="fa fa-bars pe-3" style="color: red"></i>
           </span>
@@ -59,19 +60,20 @@
             <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
               <ol class="breadcrumb margin-zero">
                 <li class="breadcrumb-item link-red">
-                  <a href="/Kanbas/Courses/Home/screen.html">CS5610.1144.202310</a>
+                  <a href="/Kanbas/Courses/Home/screen.html"
+                    >CS5610.1144.202310</a
+                  >
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Assignments
-                </li>
+                <li class="breadcrumb-item active" aria-current="page">Assignments</li>
               </ol>
             </nav>
           </span>
-          <span class="text-end wd-button">
-            <button class="btn">
-              <i class="fa fa-eye pe-2"></i>Student view
-            </button>
-          </span>
+        </div>
+        <div class="bg-black d-md-none d-flex justify-content-between align-items-center p-2 text-white">
+          <a href="/Kanbas/navigation/index.html
+          "><i class="fa fa-bars"></i></a>
+          <h6 class="m-0">CS5610.1144.202310</h6>
+          <a href="/Kanbas/Courses/Navigation/index.html"><i class="fa fa-caret-down"></i></a>
         </div>
         <hr />
         <div class="d-flex" style="height: 100vh; overflow: hidden">
