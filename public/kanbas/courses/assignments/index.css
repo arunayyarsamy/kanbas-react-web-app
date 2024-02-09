@@ -1,0 +1,24 @@
+.wd-modules li .float-end label {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.btn-red {
+    background-color: red !important;
+    color: white !important;
+}
+
+.link-red a {
+    color: red;
+    text-decoration: none;
+}
+
+.margin-zero {
+    margin: 0px !important;
+}
+
+.list-group-item h6 a {
+  /* text-decoration: none; */
+  color: black;
+}
