@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import { assignments } from "../../../Database";
 import { FaC } from "react-icons/fa6";
-import { FaCheck, FaCheckCircle, FaEllipsisV } from "react-icons/fa";
+import { FaCheck, FaCheckCircle, FaEllipsisV, FaPlus } from "react-icons/fa";
 import "../index.css";
 function AssignmentEditor() {
   const { assignmentId } = useParams();
@@ -225,7 +225,8 @@ function AssignmentEditor() {
               </div>
               <div className="card-footer text-center">
                 <button className="btn">
-                  <i className="fa fa-plus"></i>
+                  {/* <i className="fa fa-plus"></i> */}
+                  <FaPlus />
                   Add
                 </button>
               </div>
