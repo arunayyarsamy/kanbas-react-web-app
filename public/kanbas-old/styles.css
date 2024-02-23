@@ -10,7 +10,6 @@ body * {
   display: flex;
   position: relative;
   height: 100vh;
-  overflow: hidden;
 }
 .wd-main-content {
   overflow: scroll;

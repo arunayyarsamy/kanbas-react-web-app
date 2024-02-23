@@ -1,0 +1,13 @@
+nav {
+  --bs-breadcrumb-divider: ">";
+  margin-left: 10px;
+}
+
+.link-red  a{
+  color: red;
+  text-decoration: none;
+}
+
+ol {
+  margin: 0%;
+}

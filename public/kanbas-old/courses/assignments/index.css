@@ -9,6 +9,11 @@
   color: white !important;
 }
 
+.btn-green {
+  background-color: green !important;
+  color: black !important;
+}
+
 .link-red a {
   color: red;
   text-decoration: none;

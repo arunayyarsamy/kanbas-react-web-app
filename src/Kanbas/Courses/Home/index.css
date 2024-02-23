@@ -12,9 +12,9 @@
   text-align: left;
 }
 
-.wd-button ul li button i {
-  padding-right: 2px;
-  padding-left: 5px;
+.wd-button ul li button svg {
+  padding-left: 2px;
+  padding-right: 3px;
 }
 
 .link-red a {
@@ -23,6 +23,6 @@
 }
 
 .coming-up-list {
-    list-style-type: none;
-    padding: 0px;
+  list-style-type: none;
+  padding: 0px;
 }
