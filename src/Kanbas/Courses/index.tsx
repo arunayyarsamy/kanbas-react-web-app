@@ -35,9 +35,10 @@ function Courses() {
           </ol>
         </nav> */}
       {/* BreadCrumb section ends */}
-      <hr />
+      <hr className="d-none d-md-block"/>
+      <br className="d-md-none d-block "/>
       <div className="d-flex" style={{ height: "100vh" }}>
-        <div className="d-done d-md-block" style={{ height: "100vh" }}>
+        <div className="d-none d-md-block" style={{ height: "100vh" }}>
           <CourseNavigation />
         </div>
         <div className="flex-fill overflow-y-scroll ">
