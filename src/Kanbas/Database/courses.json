@@ -5,7 +5,7 @@
     "number": "RS101",
     "startDate": "2019-01-01",
     "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
+    "image": "propulsion.jpg"
   },
   {
     "_id": "RS102",
@@ -13,7 +13,7 @@
     "number": "RS102",
     "startDate": "2019-01-01",
     "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
+    "image": "rocket.jpeg"
   },
   {
     "_id": "RS103",
@@ -21,7 +21,7 @@
     "number": "RS103",
     "startDate": "2019-01-01",
     "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
+    "image": "spacecraft.jpg"
   },
   {
     "_id": "RS104",
@@ -29,7 +29,7 @@
     "number": "RS104",
     "startDate": "2019-01-01",
     "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
+    "image": "propulsion.jpg"
   },
   {
     "_id": "RS105",
@@ -37,7 +37,7 @@
     "number": "RS105",
     "startDate": "2019-01-01",
     "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
+    "image": "rocket.jpeg"
   },
   {
     "_id": "RS106",
@@ -45,7 +45,7 @@
     "number": "RS106",
     "startDate": "2019-01-01",
     "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
+    "image": "spacecraft.jpg"
   },
   {
     "_id": "RS107",
@@ -53,30 +53,6 @@
     "number": "RS107",
     "startDate": "2019-01-01",
     "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
-  },
-  {
-    "_id": "RS108",
-    "name": "Spacecraft Navigation",
-    "number": "RS108",
-    "startDate": "2019-01-01",
-    "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
-  },
-  {
-    "_id": "RS109",
-    "name": "Spacecraft Power",
-    "number": "RS109",
-    "startDate": "2019-01-01",
-    "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
-  },
-  {
-    "_id": "RS110",
-    "name": "Spacecraft Thermal Control",
-    "number": "RS110",
-    "startDate": "2019-01-01",
-    "endDate": "2019-12-31",
-    "image": "reactjs.jpg"
+    "image": "rocket.jpeg"
   }
 ]
