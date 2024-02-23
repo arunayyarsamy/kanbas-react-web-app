@@ -2,12 +2,12 @@ import {
   FaArrowAltCircleLeft,
   FaArrowAltCircleRight,
   FaSearch,
-  FaFilter
+  FaFilter,
 } from "react-icons/fa";
 import { FaCaretDown, FaGear } from "react-icons/fa6";
 import { assignments, enrollments, grades, users } from "../../Database";
 import { useParams } from "react-router-dom";
-import "./index.css"
+import "./index.css";
 
 function Grades() {
   const { courseId } = useParams();
@@ -40,7 +40,7 @@ function Grades() {
           </label>
           <div className="input-group">
             <span className="input-group-text">
-              <FaSearch/>
+              <FaSearch />
             </span>
             <input
               type="text"
@@ -48,7 +48,7 @@ function Grades() {
               placeholder="Search Students"
             />
             <span className="input-group-text">
-              <FaCaretDown/>
+              <FaCaretDown />
             </span>
           </div>
         </div>
@@ -59,7 +59,7 @@ function Grades() {
           </label>
           <div className="input-group">
             <span className="input-group-text">
-              <FaSearch/>
+              <FaSearch />
             </span>
             <input
               type="text"
@@ -67,14 +67,14 @@ function Grades() {
               placeholder="Search Assignments"
             />
             <span className="input-group-text">
-              <FaCaretDown/>
+              <FaCaretDown />
             </span>
           </div>
         </div>
       </div>
       <div className="wd-button mt-2">
         <button className="btn">
-          <FaFilter/>
+          <FaFilter />
           Apply Filters
         </button>
       </div>
@@ -100,7 +100,10 @@ function Grades() {
                         grade.student === enrollment.user &&
                         grade.assignment === assignment._id
                     );
-                    return <td>{grade?.grade || ""}</td>;
+                    if (grade?.grade !== undefined) {
+                      return <td>{grade.grade}</td>;
+                    }
+                    return null;
                   })}
                 </tr>
               );

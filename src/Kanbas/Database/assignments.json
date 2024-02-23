@@ -54,42 +54,6 @@
     "description": "This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to ta Guthub source repository, and then deploying the content to a remote server hosted on Netlify. "
   },
   {
-    "_id": "A107",
-    "title": "Heating Analysis",
-    "course": "RS101",
-    "dueDate": "2019-03-01",
-    "marks": "100",
-    "moduleDescription": "Week 0 - SETUP - Week starting on Monday September 5th (9/5/2022) Module",
-    "description": "This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to ta Guthub source repository, and then deploying the content to a remote server hosted on Netlify. "
-  },
-  {
-    "_id": "A108",
-    "title": "Structural Design Task",
-    "course": "RS101",
-    "dueDate": "2019-03-01",
-    "marks": "100",
-    "moduleDescription": "Week 0 - SETUP - Week starting on Monday September 5th (9/5/2022) Module",
-    "description": "This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to ta Guthub source repository, and then deploying the content to a remote server hosted on Netlify. "
-  },
-  {
-    "_id": "A109",
-    "title": "Orbital Calculations",
-    "course": "RS101",
-    "dueDate": "2019-03-01",
-    "marks": "100",
-    "moduleDescription": "Week 0 - SETUP - Week starting on Monday September 5th (9/5/2022) Module",
-    "description": "This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to ta Guthub source repository, and then deploying the content to a remote server hosted on Netlify. "
-  },
-  {
-    "_id": "A110",
-    "title": "Systems Engineering Exam",
-    "course": "RS101",
-    "dueDate": "2019-03-01",
-    "marks": "100",
-    "moduleDescription": "Week 0 - SETUP - Week starting on Monday September 5th (9/5/2022) Module",
-    "description": "This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to ta Guthub source repository, and then deploying the content to a remote server hosted on Netlify. "
-  },
-  {
     "_id": "A201",
     "title": "Aerodynamics Quiz",
     "course": "RS102",

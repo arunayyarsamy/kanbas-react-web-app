@@ -35,7 +35,7 @@ function BreadCrumbs() {
                   </li>
                 );
               }
-              return 0;
+              return null;
             })}
           </ol>
         </nav>
