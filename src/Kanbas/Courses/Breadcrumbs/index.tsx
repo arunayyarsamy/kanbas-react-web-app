@@ -20,13 +20,7 @@ function BreadCrumbs() {
               <Link to={baseUrl + courseId + "/Home"}>Course {courseId}</Link>
             </li>
             {breadCrumbParts.map((part, index) => {
-              if (
-                breadCrumbParts.length === 2 &&
-                breadCrumbParts[1] === "Home"
-              ) {
-                return;
-              }
-              if (index != 0) {
+              if (index !== 0) {
                 lastUsedPart = lastUsedPart + "/" + part;
                 if (index === breadCrumbParts.length - 1) {
                   return (
@@ -41,6 +35,7 @@ function BreadCrumbs() {
                   </li>
                 );
               }
+              return 0;
             })}
           </ol>
         </nav>

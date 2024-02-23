@@ -1,5 +1,10 @@
 import React from "react";
-import { FaCheckCircle, FaEllipsisV, FaPlus, FaPlusCircle } from "react-icons/fa";
+import {
+  FaCheckCircle,
+  FaEllipsisV,
+  FaPlus,
+  FaPlusCircle,
+} from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
 import { assignments } from "../../Database";
 import "./index.css";
@@ -8,7 +13,8 @@ import { FaPencil } from "react-icons/fa6";
 function Assignments() {
   const { courseId } = useParams();
   const assignmentList = assignments.filter(
-    (assignment) => assignment.course === courseId);
+    (assignment) => assignment.course === courseId
+  );
   return (
     <>
       <div className="mx-2" style={{ overflow: "hidden" }}>
@@ -44,10 +50,10 @@ function Assignments() {
         <hr />
         <ul className="list-group wd-modules">
           <li className="list-group-item">
-            <div>
+            <div className="mb-2">
               <FaEllipsisV className="me-2" /> ASSIGNMENTS
               <span className="float-end">
-                <FaCheckCircle className="text-success" />
+                <label>40% of Total</label>
                 <FaPlusCircle className="ms-2" />
                 <FaEllipsisV className="ms-2" />
               </span>
@@ -57,7 +63,7 @@ function Assignments() {
                 <li className="list-group-item">
                   <div className="d-flex align-items-center py-10">
                     <FaEllipsisV className="me-2" />
-                    <FaPencil className="me-3 fg-green"/>
+                    <FaPencil className="me-3 fg-green" />
                     <div className="d-flex-column flex-fill">
                       <h6>
                         <Link
@@ -66,9 +72,7 @@ function Assignments() {
                           {assignment.title}
                         </Link>
                       </h6>
-                      <label>
-                        {assignment.moduleDescription}
-                      </label>
+                      <label>{assignment.moduleDescription}</label>
                       <br />
                       <label>
                         Due {assignment.dueDate} | {assignment.marks} pts
@@ -86,5 +90,6 @@ function Assignments() {
         </ul>
       </div>
     </>
-  );}
+  );
+}
 export default Assignments;

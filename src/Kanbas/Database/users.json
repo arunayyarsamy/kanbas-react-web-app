@@ -60,6 +60,16 @@
     "role": "STUDENT"
   },
   {
+    "_id": "131",
+    "username": "ring_bearer",
+    "password": "shire123",
+    "firstName": "Frodo",
+    "lastName": "Baggins",
+    "email": "baggins.frodo@lotr.com",
+    "dob": "1368-09-22",
+    "role": "STUDENT"
+  },
+  {
     "_id": "127",
     "username": "ring_bearer",
     "password": "shire123",
@@ -87,6 +97,16 @@
     "lastName": "Greenleaf",
     "email": "legolas@mirkwood.com",
     "dob": "2879-07-15",
+    "role": "FACULTY"
+  },
+  {
+    "_id": "130",
+    "username": "dwarf_warrior",
+    "password": "gimli123",
+    "firstName": "Gimli",
+    "lastName": "Son of Gloin",
+    "email": "gimli@warrior.com",
+    "dob": "2879-11-15",
     "role": "FACULTY"
   }
 ]
