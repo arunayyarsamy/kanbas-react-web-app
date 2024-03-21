@@ -106,6 +106,7 @@ function Dashboard({
                         event.preventDefault();
                         setCourse(course);
                       }}
+                      className="btn btn-primary btn-sm mx-2"
                     >
                       Edit
                     </button>
@@ -114,6 +115,7 @@ function Dashboard({
                         event.preventDefault();
                         deleteCourse(course._id);
                       }}
+                      className="btn btn-danger btn-sm mx-2"
                     >
                       Delete
                     </button>
