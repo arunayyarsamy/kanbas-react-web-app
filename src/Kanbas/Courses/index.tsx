@@ -14,11 +14,10 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/Editor";
 import Grades from "./Grades";
 import BreadCrumbs from "./Breadcrumbs";
-function Courses() {
+function Courses({ courses }: { courses: any[] }) {
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
   const { pathname } = useLocation();
-  console.log(pathname);
   return (
     <>
       {/* BreadCrumb section starts */}
@@ -35,8 +34,8 @@ function Courses() {
           </ol>
         </nav> */}
       {/* BreadCrumb section ends */}
-      <hr className="d-none d-md-block"/>
-      <br className="d-md-none d-block "/>
+      <hr className="d-none d-md-block" />
+      <br className="d-md-none d-block " />
       <div className="d-flex" style={{ height: "100vh" }}>
         <div className="d-none d-md-block" style={{ height: "100vh" }}>
           <CourseNavigation />
